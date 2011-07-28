@@ -18,10 +18,8 @@ if($cookie->userid && $maAwesomeUsersmanager->processAutologin($_COOKIE['useraut
 
 <p>And don't think about saving setted cokies into $_COOKIE array or delete them wneh you delete something.</p>
 
-* Basic features *
-<ul>
-    <li>OOP PHP5 Code and features</li>
-    <li>ArrayAccess class implementation: unset($cookie[$cookname])</li>
-    <li>Default cookies configuration via setters/getters</li>
-    <li>Synchronization $_COOKIE variable with setcookie() calls.</li>
-</ul>
+Basic features
+* OOP PHP5 Code and features
+* ArrayAccess class implementation: unset($cookie[$cookname])
+* Default cookies configuration via setters/getters
+* Synchronization $_COOKIE variable with setcookie() calls.
