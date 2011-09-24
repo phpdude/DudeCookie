@@ -34,7 +34,7 @@ class Dude_Cookie implements ArrayAccess
     }
 
     /**
-     * Sets cokie value with default cookie options
+     * Sets cookie value with default cookie options
      * @param string $name String cookie name
      * @param string $value String cookie value
      */
